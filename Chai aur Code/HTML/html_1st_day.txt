@@ -1,0 +1,13 @@
+//Day-1
+//hypertext is a special text with many capabilities -> represent text image number in a different different way 
+by clicking some text we can go to another page making text bold give padding colorable text etc this alll are capabilities of html
+
+//browser know html
+//every tag have some special meaning
+//http is a hypertext transfer protocol use to transfer anything or communicate in the internet
+it is a stateless protocol 
+//www we can say whole internet is world wide web 
+
+//interview question http, www
+
+
