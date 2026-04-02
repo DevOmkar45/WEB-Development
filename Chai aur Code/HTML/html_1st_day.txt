@@ -1,13 +1,52 @@
 //Day-1
-//hypertext is a special text with many capabilities -> represent text image number in a different different way 
+1. //hypertext is a special text with many capabilities -> represent text image number in a different different way 
 by clicking some text we can go to another page making text bold give padding colorable text etc this alll are capabilities of html
 
 //browser know html
 //every tag have some special meaning
-//http is a hypertext transfer protocol use to transfer anything or communicate in the internet
+
+2.//http is a hypertext transfer protocol use to transfer anything or communicate in the internet
 it is a stateless protocol 
+
 //www we can say whole internet is world wide web 
 
-//interview question http, www
+3.//interview question http, www
 
+4.//CDN chaching krte hai geographically different different location me server rkhte hai 
+so jb bhi koi request dale rendering fast ho suppose in nagpur if someone request for st which
+is in usa then it will be fetech from usa first time will take time and get to user as well as
+fetches to near cdn server so next time if anyone ask for same request they will get fast respond
 
+<!-- heading tag -->
+<!-- <h1>h1 tag</h1>
+<h2>h2</h2>
+<h3>h3</h3>
+<h4>h4</h4>
+<h5>h5</h5>
+<h6>h6</h6> -->
+<!-- there is no h7 tag -->
+<!-- start index.html run html file -->
+<!-- paragraph tag -->
+ <!-- <p>paragraph</p>
+ <br>  -->
+ <!-- to change to next line it has no closing tag called self closing tag -->
+  <!-- <hr>  -->
+  <!-- horizontal line -->
+  <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi repellendus,
+     eligendi ea vitae odio accusamus minima <br> quae odit neque excepturi fugit dolor 
+     doloribus alias ipsa corporis non est asperiores facilis.</p> -->
+
+<!-- lorem*5 --> 
+
+///////////................//////////////////................../////////////////.................
+//HTML TAGS
+1. em tag <em> used to give verbal stress to specific imp word 
+2. i tag <i> just give style to the word although both in text represented as italic 
+3. a anchor tag is use to link pages or for clickable text, image attribute href"link" target="_blank" this will open in new tab
+4. strong tag describe imp word
+5. in anchor tag mailto protocol it take link to destination's mail instead of http and https 
+   <a href="mailto:omkar@gmail.com"> mail </a>
+6. to link different sections in same page we use href="#id_Name_jhajana hai" # tells browser find in same page
+7. Download attribute in anchor tag used to download any file from src instead of just navigating
+8. img tag <img src="" alt="image description" height="" width="">   
+9. figure tag use to make block of certain things like image and caption anchor tag in one block 
