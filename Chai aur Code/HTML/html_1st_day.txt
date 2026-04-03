@@ -38,6 +38,7 @@ fetches to near cdn server so next time if anyone ask for same request they will
 
 <!-- lorem*5 --> 
 
+
 ///////////................//////////////////................../////////////////.................
 //HTML TAGS
 1. em tag <em> used to give verbal stress to specific imp word 
@@ -50,3 +51,6 @@ fetches to near cdn server so next time if anyone ask for same request they will
 7. Download attribute in anchor tag used to download any file from src instead of just navigating
 8. img tag <img src="" alt="image description" height="" width="">   
 9. figure tag use to make block of certain things like image and caption anchor tag in one block 
+10.  picture tag is use to make image responsive like one small image for phone big image for desktop 2 diff image for two diff screen using source tag
+11. ul -> unorderlist ol -> orderedlist li -> list attributes start, type
+12. descriptive list dl inside this  dt description term dd description defination like key value pair
