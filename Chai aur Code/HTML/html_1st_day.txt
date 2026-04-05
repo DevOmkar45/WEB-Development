@@ -53,4 +53,19 @@ fetches to near cdn server so next time if anyone ask for same request they will
 9. figure tag use to make block of certain things like image and caption anchor tag in one block 
 10.  picture tag is use to make image responsive like one small image for phone big image for desktop 2 diff image for two diff screen using source tag
 11. ul -> unorderlist ol -> orderedlist li -> list attributes start, type
-12. descriptive list dl inside this  dt description term dd description defination like key value pair
+12. descriptive list dl inside this  dt description term dd description defination like key value pair.
+
+//TABLE
+13. table tr -> table row td -> table data thead -> group header content th-> table head mean header cells where data auto become bold and in center align
+tbody -> group body content  tfoot-> table footer
+14. we use  rowspan and colspan  in td to merge two coloum or more in one and same for row
+
+//FORM TAGS
+
+15. form is used to collect info from the user <form> tag wrapper field that group all input fields.
+16. two main attributes -> (action) it tell where to send data generally URL pointing toward server
+17. Method attribute tell how data will send.
+18. Method GET attach data to end of url, good for searching in google. POST sends the data hidden in the background good for password, sensitive data
+19. Every input should have name(sometime it helps server to know what info user is typing like name="first-Name") type="text, email, password, radio, checkbox.
+20. label every input should have label 
+21.
