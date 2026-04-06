@@ -68,4 +68,14 @@ tbody -> group body content  tfoot-> table footer
 18. Method GET attach data to end of url, good for searching in google. POST sends the data hidden in the background good for password, sensitive data
 19. Every input should have name(sometime it helps server to know what info user is typing like name="first-Name") type="text, email, password, radio, checkbox.
 20. label every input should have label 
-21.
+21. For Dropdown we use <select name id> tag to create dropdown uske andr <option value> 
+22. but we want pre selected <option value selected>
+23. if anything is mandotory <input type required> required in last 
+24. if you want particular strict pattern in userinput <input pattern="[a-z0-9]{p5,15}" regex 
+25. whenever add pattern add title along with it <input title="> for range <input min="" max=""> maxlength also attribute
+26. <input type="file" accept=".pdf, .docx, .jpg" multiple> used to take file
+27. for automatic suggestion use list attribute and <datalist> tag 
+28. <fieldset> use to group locally related element together in web page and also use <legend> for group caption
+
+// semantic layout of website
+29. header main footer section nav tag all work same like div but instead of div it seams more understandable
