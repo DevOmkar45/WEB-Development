@@ -1,0 +1,5 @@
+1. internet hardware massive network of cables wire satelite router that connects computer to share resources
+2. www collection of all web resources website webpage links etc that are identify through url and can link through hypertext
+3. browser we use to access info over internet it understand html css js etc and convert website code into visual website
+4. http https we use to communicate on browser browser to server server to browser
+5. server is a warehouse or big super computer where company keeps their website and we access through internet

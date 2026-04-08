@@ -1,0 +1,95 @@
+//Day-1
+1. //hypertext is a special text with many capabilities -> represent text image number in a different different way 
+by clicking some text we can go to another page making text bold give padding colorable text etc this alll are capabilities of html
+
+//browser know html
+//every tag have some special meaning
+
+2.//http is a hypertext transfer protocol use to transfer anything or communicate in the internet
+it is a stateless protocol 
+
+//www we can say whole internet is world wide web 
+
+3.//interview question http, www
+
+4.//CDN chaching krte hai geographically different different location me server rkhte hai 
+so jb bhi koi request dale rendering fast ho suppose in nagpur if someone request for st which
+is in usa then it will be fetech from usa first time will take time and get to user as well as
+fetches to near cdn server so next time if anyone ask for same request they will get fast respond
+
+<!-- heading tag -->
+<!-- <h1>h1 tag</h1>
+<h2>h2</h2>
+<h3>h3</h3>
+<h4>h4</h4>
+<h5>h5</h5>
+<h6>h6</h6> -->
+<!-- there is no h7 tag -->
+<!-- start index.html run html file -->
+<!-- paragraph tag -->
+ <!-- <p>paragraph</p>
+ <br>  -->
+ <!-- to change to next line it has no closing tag called self closing tag -->
+  <!-- <hr>  -->
+  <!-- horizontal line -->
+  <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi repellendus,
+     eligendi ea vitae odio accusamus minima <br> quae odit neque excepturi fugit dolor 
+     doloribus alias ipsa corporis non est asperiores facilis.</p> -->
+
+<!-- lorem*5 --> 
+
+
+///////////................//////////////////................../////////////////.................
+//HTML TAGS
+1. em tag <em> used to give verbal stress to specific imp word 
+2. i tag <i> just give style to the word although both in text represented as italic 
+3. a anchor tag is use to link pages or for clickable text, image attribute href"link" target="_blank" this will open in new tab
+4. strong tag describe imp word
+5. in anchor tag mailto protocol it take link to destination's mail instead of http and https 
+   <a href="mailto:omkar@gmail.com"> mail </a>
+6. to link different sections in same page we use href="#id_Name_jhajana hai" # tells browser find in same page
+7. Download attribute in anchor tag used to download any file from src instead of just navigating
+8. img tag <img src="" alt="image description" height="" width="">   
+9. figure tag use to make block of certain things like image and caption anchor tag in one block 
+10.  picture tag is use to make image responsive like one small image for phone big image for desktop 2 diff image for two diff screen using source tag
+11. ul -> unorderlist ol -> orderedlist li -> list attributes start, type
+12. descriptive list dl inside this  dt description term dd description defination like key value pair.
+
+//TABLE
+13. table tr -> table row td -> table data thead -> group header content th-> table head mean header cells where data auto become bold and in center align
+tbody -> group body content  tfoot-> table footer
+14. we use  rowspan and colspan  in td to merge two coloum or more in one and same for row
+
+//FORM TAGS
+
+15. form is used to collect info from the user <form> tag wrapper field that group all input fields.
+16. two main attributes -> (action) it tell where to send data generally URL pointing toward server
+17. Method attribute tell how data will send.
+18. Method GET attach data to end of url, good for searching in google. POST sends the data hidden in the background good for password, sensitive data
+19. Every input should have name(sometime it helps server to know what info user is typing like name="first-Name") type="text, email, password, radio, checkbox.
+20. label every input should have label 
+21. For Dropdown we use <select name id> tag to create dropdown uske andr <option value> 
+22. but we want pre selected <option value selected>
+23. if anything is mandotory <input type required> required in last 
+24. if you want particular strict pattern in userinput <input pattern="[a-z0-9]{p5,15}" regex 
+25. whenever add pattern add title along with it <input title="> for range <input min="" max=""> maxlength also attribute
+26. <input type="file" accept=".pdf, .docx, .jpg" multiple> used to take file
+27. for automatic suggestion use list attribute and <datalist> tag 
+28. <fieldset> use to group locally related element together in web page and also use <legend> for group caption
+
+// semantic layout of website 
+29. header main footer section nav tag all work same like div but instead of div it seams more understandable
+28. article like news paper article group related part independent from rest
+29.<aside> tag use to tell related content to main content if we remove aside it does't affect anything
+30. <time datetime="2025-3-15"> this tag use to specify time wali thing and datetime attribute let computer read exact time
+
+//for audio file
+31. <audio controls> inside <source src="" type="audio.mp3"> we use audio it tell browser here is audio content by adding control playbar time volumn sb a jata hai 
+32. source we use to give 2 3 formates of audio link so if browser doesn't understand 1source it will try to understand 2nd formate and so one
+33. <video controls poster="image.jpg" for thumbnail image width height> andr same source and default text
+34.// <iframe> tag inline frame use to embedded external things in your page like youtube video map 
+35. <iframe src="yt share embedded/map share embedded" height width frameborder title allowfullscreen>
+36. svg use math to make drawing line curve it does not get blured even after scaling <svg width="100" height="100" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="blue" /></svg>
+37. <canvas id height width border> very interesting tag give blank space to draw and instruction given by js and it is not static
+38. using <object src="" type height width> you can embedded any pdf in your webpage i mean if you use link it will take user to other webpage so use object 
+39. track tag is use for diff diff subtitle file in same video 
