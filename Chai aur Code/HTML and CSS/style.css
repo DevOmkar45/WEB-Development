@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+
+/*Atomic CSS*/
+/* we have written class for every property ab bs class import krna hai automatic style apply ho jyegi */
+
+.bg-pink{
+    background-color: pink;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.color-red{
+    color: red;
+}
+
+.color-white{
+    color: white;
+}

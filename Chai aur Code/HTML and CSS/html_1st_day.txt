@@ -17,25 +17,20 @@ so jb bhi koi request dale rendering fast ho suppose in nagpur if someone reques
 is in usa then it will be fetech from usa first time will take time and get to user as well as
 fetches to near cdn server so next time if anyone ask for same request they will get fast respond
 
-<!-- heading tag -->
-<!-- <h1>h1 tag</h1>
+<<h1>h1 tag</h1>
 <h2>h2</h2>
 <h3>h3</h3>
 <h4>h4</h4>
 <h5>h5</h5>
 <h6>h6</h6> -->
-<!-- there is no h7 tag -->
+there is no h7 tag
 <!-- start index.html run html file -->
-<!-- paragraph tag -->
  <!-- <p>paragraph</p>
  <br>  -->
- <!-- to change to next line it has no closing tag called self closing tag -->
   <!-- <hr>  -->
-  <!-- horizontal line -->
   <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi repellendus,
      eligendi ea vitae odio accusamus minima <br> quae odit neque excepturi fugit dolor 
      doloribus alias ipsa corporis non est asperiores facilis.</p> -->
-
 <!-- lorem*5 --> 
 
 
