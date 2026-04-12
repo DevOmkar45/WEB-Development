@@ -1,0 +1,141 @@
+/* how to remove user agent style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --text-color: #3b3030;
+    --accent-color: rgb(112, 245, 112);
+    --accent-hover-color: green;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    background-color: #d5d5d5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+nav h1{
+    /* color: #333333; */
+    color: var(--text-color);
+    font-size: 30px;
+}
+
+nav div a{
+    /* color: #333333; */
+    color: var(--text-color);
+    text-decoration:none;
+    margin-left:15px;
+    font-size: 18px;
+}
+
+nav div button{
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+nav div button:hover{
+    background-color: var(--accent-hover-color);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    gap: 24px;
+}
+
+.main-left{
+    width: 70%;
+    margin-top: 20px;
+}
+
+.main-left h2{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.main-left p{
+    font-size: 24px;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.main-left button{
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+.main-left button:hover {
+    background-color: var(--accent-hover-color);
+}
+
+.main-right img{
+    width: 400px;
+    margin: 50px 20px;
+}
+
+.content h2{
+    font-size: 48px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.content-card {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 20px auto;
+    margin-top: 70px;
+}
+
+.content-card .card{
+    background-color:#2b2a2a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.content-card .card img{
+    height: 180px;
+    width: 200px;
+    border-radius: 4px;
+}
+
+.content-card .card button{
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+}

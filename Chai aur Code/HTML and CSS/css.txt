@@ -13,7 +13,28 @@
 11. !important over rull all rules of specificity and give first priority
 12. talwind is library uses atomic css (it help us to design the things) 
 13. in bootstrap puri btn ke liye already class likh di gayi hai just drag button code from bootstrap you can cascade that button too.
+14. display: flex, flex-direction: row/colum/reverse , justify-content: main-axis, align-item: center, stretch, gap: if we did not give justify content
+   this all are for parent item
+15. align-self for self individual flex item flex: ratio ke according scale krega, order: priority of flex item btata hai 
 
+
+
+
+//##Properties
+1. box-sizing: border-box; height width we give  is last sb padding border uske andr
+2. text-decoration: none, text-align: center, letter-spacing: 2px; line-height: 1.6;
+3. box-shadow: unset; 
+
+
+
+
+
+
+
+
+
+
+//##concepts
 
 # Web Development Fundamentals: The Browser & CSS Basics
 
@@ -78,3 +99,5 @@ Tailwind solves the bulkiness of Atomic CSS through a process called **Purging**
 ## 3. Tailwind vs. Bootstrap
 * **Bootstrap:** A **Component Library**. It gives you pre-designed "finished goods" like buttons and navbars. You can still override (cascade) these styles with your own CSS.
 * **Tailwind:** A **Utility Framework**. It gives you the "raw materials" (padding, color, flex) to build your own custom components without leaving your HTML.
+
+

@@ -11,6 +11,8 @@ button {
 
 /*Atomic CSS*/
 /* we have written class for every property ab bs class import krna hai automatic style apply ho jyegi */
+/* but here is problem if we import file where we write class for every property it will become more bulky 
+so (talwind css) solved this problem jo bhi class use me hogi vahi rakhega baki sari classes ye vipe out kr dega */
 
 .bg-pink{
     background-color: pink;
